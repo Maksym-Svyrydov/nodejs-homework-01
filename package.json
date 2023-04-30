@@ -2,18 +2,20 @@
   "name": "nodejs-homework-01",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "contacts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index",
-    "start:dev": "nodemon index"
+    "start": "node contacts",
+    "start:dev": "nodemon contacts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "nanoid": "3.3.4",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "commander": "^10.0.1",
